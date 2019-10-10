@@ -1,0 +1,27 @@
+body {
+  margin: auto;
+}
+
+  nav {
+    li {
+      width: 10%;
+    }
+  }
+
+  .figureDiv {
+    display: flex;
+    flex-wrap: wrap;
+    
+    figure {
+      flex-basis: 22%;
+      margin: 1.5%;
+      padding: 0;
+      img {
+        width: 100%;
+        }
+      figcaption {
+        text-align: center;
+        font-weight: $regularWeight;
+      }
+    }
+  }

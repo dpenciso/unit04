@@ -1,0 +1,24 @@
+  nav {
+    li {
+      width: 15%;
+    }
+  }
+
+  .figureDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    
+    figure {
+      flex-basis: 30%;
+      margin: 1.5%;
+      padding: 0;
+      img {
+        width: 100%;
+        }
+      figcaption {
+        text-align: center;
+        font-weight: $regularWeight;
+      }
+    }
+  }
