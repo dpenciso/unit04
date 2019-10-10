@@ -7,7 +7,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 //BODY RULES
 body {
   font-family: $font-family;
-  max-width: 1140px;
+  max-width: 960px;
 }
 
 // HEADER RULES
@@ -17,7 +17,7 @@ header {
   height: 195px;
   h1.companyName {
   text-shadow: 1px 1px 3px white;
-  margin: 10% 0 0 0;
+  margin: 8% 0 0 0;
   color: black;
   font-weight: $heavyWeight;
   font-size: 3rem;
@@ -65,7 +65,7 @@ nav {
 }
 
 i {
-  margin: 5%; 
+  margin: 3% 5%; 
   font-size: 2rem;
   position: relative;
   animation: mymove 4s 1; 
@@ -82,6 +82,12 @@ h1.text {
   padding: 0;
   margin: 5% 0 2% 0;
   text-align: center;
+  font-weight: $heavyWeight;
+}
+
+h1.welcome {
+  padding: 0;
+  margin: 0 4%;
   font-weight: $heavyWeight;
 }
 

@@ -8,20 +8,8 @@ body {
     }
   }
 
-  .figureDiv {
-    display: flex;
-    flex-wrap: wrap;
-    
-    figure {
-      flex-basis: 22%;
-      margin: 1.5%;
-      padding: 0;
-      img {
-        width: 100%;
-        }
-      figcaption {
-        text-align: center;
-        font-weight: $regularWeight;
-      }
-    }
+  header {
+    background-image: url(../images/large.jpg), url(../images/repeat.jpg);
+    background-position: center top, left bottom;
+    background-repeat: no-repeat, repeat;
   }
