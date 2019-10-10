@@ -4,8 +4,13 @@
     }
   }
 
-  header {
+  div.headerWrapper {
     background-image: url(../images/medium.jpg);
+  }
+
+  header {
+    
+    height: 389px;
   }
 
   i {
